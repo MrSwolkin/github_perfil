@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--corPrincipal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 180px 0 40px;
+    margin-bottom: 60px;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid var(--corSecundaria);
+    margin-bottom: 24px;
+}
+
+.name {
+    font-size: 28px;
+    color: var(--corSecundaria);
+}

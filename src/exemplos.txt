@@ -1,0 +1,33 @@
+import Perfil from "./components/Perfil."; 
+
+
+function App() {
+  const nome = "Erick";
+
+  function retornaNome() {
+    return nome;
+
+  }
+
+  const pessoa = {
+    nome: "Bruna"
+  }
+
+  let estaDeDia = true;
+  let estaDeTarde  = false;
+
+
+
+  return (
+    <>
+      <Perfil/>
+      <h1>olá, {retornaNome()}</h1>
+      <h1>olá, {pessoa.nome}</h1>
+      <h2>subtitulo</h2>
+      {estaDeDia === true ? 'Bom dia' : 'Boa tarde'}
+      {estaDeTarde &&  'Boa tarde'}
+    </>
+  )
+}
+
+export default App
